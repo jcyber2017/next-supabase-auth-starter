@@ -361,4 +361,5 @@ echo "EMAIL_FROM='no-reply@yourdomain.com'"
 echo
 echo "Then run: npx drizzle-kit push"
 echo "Start dev server: npm run dev"
+echo "npm create storybook@latest to add Storybook"
 echo "✅ Setup Complete!"
