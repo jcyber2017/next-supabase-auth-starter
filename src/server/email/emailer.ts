@@ -11,11 +11,11 @@ const sendEmail = async (to: string, subject: string, text: string, html: string
     port: 587,
     secure: false,
     auth: {
-      user: '***REMOVED***@gmail.com',
-      pass: '***REMOVED***'
+      user: 'email@gmail.com',
+      pass: 'password'
     },
   });
-  await transporter.sendMail({from: '"fluent-flow" <***REMOVED***@gmail.com>', to, subject, text, html});
+  await transporter.sendMail({from: '"contact" <email@gmail.com>', to, subject, text, html});
 };
 
 export default sendEmail;
